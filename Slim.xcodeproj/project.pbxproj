@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4092AB11673BECC0042C8E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4092AB01673BECC0042C8E9 /* Cocoa.framework */; };
+		B4092AB31673BECC0042C8E9 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4092AB21673BECC0042C8E9 /* MacRuby.framework */; };
+		B4092ABC1673BECC0042C8E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4092ABA1673BECC0042C8E9 /* InfoPlist.strings */; };
+		B4092ABE1673BECC0042C8E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4092ABD1673BECC0042C8E9 /* main.m */; };
+		B4092AC31673BECC0042C8E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4092AC11673BECC0042C8E9 /* MainMenu.xib */; };
+		B4092AC61673BECC0042C8E9 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = B4092AC51673BECC0042C8E9 /* rb_main.rb */; };
+		B4092AC81673BECC0042C8E9 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = B4092AC71673BECC0042C8E9 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4092AB51673BECC0042C8E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4092AA31673BECC0042C8E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4092AAB1673BECC0042C8E9;
+			remoteInfo = Slim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4092AAC1673BECC0042C8E9 /* Slim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4092AB01673BECC0042C8E9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B4092AB21673BECC0042C8E9 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		B4092AB91673BECC0042C8E9 /* Slim-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Slim-Info.plist"; sourceTree = "<group>"; };
+		B4092ABB1673BECC0042C8E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4092ABD1673BECC0042C8E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4092ABF1673BECC0042C8E9 /* Slim-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Slim-Prefix.pch"; sourceTree = "<group>"; };
+		B4092AC21673BECC0042C8E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B4092AC51673BECC0042C8E9 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		B4092AC71673BECC0042C8E9 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4092AA91673BECC0042C8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4092AB11673BECC0042C8E9 /* Cocoa.framework in Frameworks */,
+				B4092AB31673BECC0042C8E9 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4092AA11673BECC0042C8E9 = {
+			isa = PBXGroup;
+			children = (
+				B4092AB71673BECC0042C8E9 /* Slim */,
+				B4092AAF1673BECC0042C8E9 /* Frameworks */,
+				B4092AAD1673BECC0042C8E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4092AAD1673BECC0042C8E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4092AAC1673BECC0042C8E9 /* Slim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4092AAF1673BECC0042C8E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4092AB01673BECC0042C8E9 /* Cocoa.framework */,
+				B4092AB21673BECC0042C8E9 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4092AB71673BECC0042C8E9 /* Slim */ = {
+			isa = PBXGroup;
+			children = (
+				B4092AC71673BECC0042C8E9 /* AppDelegate.rb */,
+				B4092AC01673BECC0042C8E9 /* Resources */,
+				B4092AC41673BECC0042C8E9 /* Other Sources */,
+				B4092AB81673BECC0042C8E9 /* Supporting Files */,
+			);
+			path = Slim;
+			sourceTree = "<group>";
+		};
+		B4092AB81673BECC0042C8E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4092AB91673BECC0042C8E9 /* Slim-Info.plist */,
+				B4092ABA1673BECC0042C8E9 /* InfoPlist.strings */,
+				B4092ABD1673BECC0042C8E9 /* main.m */,
+				B4092ABF1673BECC0042C8E9 /* Slim-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4092AC01673BECC0042C8E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4092AC11673BECC0042C8E9 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B4092AC41673BECC0042C8E9 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B4092AC51673BECC0042C8E9 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		B4092AB41673BECC0042C8E9 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = B4092ACE1673BECC0042C8E9 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				B4092AB61673BECC0042C8E9 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		B4092AAB1673BECC0042C8E9 /* Slim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4092ACB1673BECC0042C8E9 /* Build configuration list for PBXNativeTarget "Slim" */;
+			buildPhases = (
+				B4092AA81673BECC0042C8E9 /* Sources */,
+				B4092AA91673BECC0042C8E9 /* Frameworks */,
+				B4092AAA1673BECC0042C8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slim;
+			productName = Slim;
+			productReference = B4092AAC1673BECC0042C8E9 /* Slim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4092AA31673BECC0042C8E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Daniel Schmidt";
+			};
+			buildConfigurationList = B4092AA61673BECC0042C8E9 /* Build configuration list for PBXProject "Slim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4092AA11673BECC0042C8E9;
+			productRefGroup = B4092AAD1673BECC0042C8E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4092AAB1673BECC0042C8E9 /* Slim */,
+				B4092AB41673BECC0042C8E9 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4092AAA1673BECC0042C8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4092ABC1673BECC0042C8E9 /* InfoPlist.strings in Resources */,
+				B4092AC31673BECC0042C8E9 /* MainMenu.xib in Resources */,
+				B4092AC61673BECC0042C8E9 /* rb_main.rb in Resources */,
+				B4092AC81673BECC0042C8E9 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4092AA81673BECC0042C8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4092ABE1673BECC0042C8E9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4092AB61673BECC0042C8E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4092AAB1673BECC0042C8E9 /* Slim */;
+			targetProxy = B4092AB51673BECC0042C8E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4092ABA1673BECC0042C8E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4092ABB1673BECC0042C8E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B4092AC11673BECC0042C8E9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4092AC21673BECC0042C8E9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4092AC91673BECC0042C8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B4092ACA1673BECC0042C8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B4092ACC1673BECC0042C8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"@@@FRAMEWORK_INSTDIR@@@\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slim/Slim-Prefix.pch";
+				INFOPLIST_FILE = "Slim/Slim-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B4092ACD1673BECC0042C8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"@@@FRAMEWORK_INSTDIR@@@\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slim/Slim-Prefix.pch";
+				INFOPLIST_FILE = "Slim/Slim-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B4092ACF1673BECC0042C8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		B4092AD01673BECC0042C8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4092AA61673BECC0042C8E9 /* Build configuration list for PBXProject "Slim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4092AC91673BECC0042C8E9 /* Debug */,
+				B4092ACA1673BECC0042C8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4092ACB1673BECC0042C8E9 /* Build configuration list for PBXNativeTarget "Slim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4092ACC1673BECC0042C8E9 /* Debug */,
+				B4092ACD1673BECC0042C8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B4092ACE1673BECC0042C8E9 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4092ACF1673BECC0042C8E9 /* Debug */,
+				B4092AD01673BECC0042C8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4092AA31673BECC0042C8E9 /* Project object */;
+}
